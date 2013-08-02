@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>Self Care | Login Page</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+
+    <link rel="stylesheet" href="assets/plugins/jquery-mobile/jquery.mobile-1.0a2.min.css" />
+    <script src="assets/plugins/jquery-1.4.4.min.js"></script>
+    <script src="assets/plugins/jquery-mobile/jquery.mobile-1.0a2.min.js"></script>
+
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body style="background:  #000000!important;">
+
+
+<div data-role="page" id="home">
+    <div data-position="fixed" data-role="header" data-theme="b">
+
+        <h1>Self Care</h1>
+    </div>
+    <div align="center" data-role="content" id="contentConfirmation" name="contentConfirmation" style="background:  #ffffff!important;">
+        <h1>Sign In</h1>
+        <h2></h2>
+        <form id="HLogin" method="POST"><div data-role="fieldcontain">
+
+            <input class="required" id="Lusername" name="uid_r" type="text" value="" placeholder="Username">
+    </div>
+            <div data-role="fieldcontain">
+                <input id="Lpassword" name="pwd_r" type="password" value="" placeholder="Password">
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-body">
+                    <div class="ui-block-b" style="text-align: center!important;vertical-align: middle;float: right">
+                        <button data-theme="b" type="submit" >Login</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</body>
+<!-- END BODY -->
+</html>
